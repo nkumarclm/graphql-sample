@@ -1,0 +1,9 @@
+type Query {
+    partnerLinks: [PartnerLink]
+}
+
+type PartnerLink {
+    partner: String
+    link: String
+}
+
