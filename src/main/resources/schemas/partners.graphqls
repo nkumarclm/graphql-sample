@@ -1,0 +1,14 @@
+type Query {
+    partners: [Partner]
+}
+
+type Partner {
+    partner: String
+    link: String
+    products: [PartnerProduct]
+}
+
+type PartnerProduct {
+    partner: String
+    product: String
+}
