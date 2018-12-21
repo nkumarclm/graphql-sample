@@ -16,6 +16,7 @@ Access the graphql endpoint
 http://localhost:8080/graphiql    
 
 
+![Local graphql](https://github.com/nkumarclm/graphql-sample/blob/master/images/graphql-sample.JPG)
 *Rest APIs just incase if you like to access it seperately*
 
 REST API 1: 
