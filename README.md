@@ -17,6 +17,7 @@ http://localhost:8080/graphiql
 
 
 *Rest APIs just incase if you like to access it seperately*
+
 REST API 1: 
     http://demo5040956.mockable.io/partnerLinks
     
