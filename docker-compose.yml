@@ -1,0 +1,9 @@
+version: '3'
+services:
+    grapql-test:
+    #  build:
+     #   context: .
+      #  dockerfile: ./docker/dockerFile
+      image: naveenpop/graphql-test:43c73e4691a13fa8ca7600e969393c21796153e6
+      ports:
+        - 8080:8080

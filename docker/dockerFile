@@ -1,0 +1,9 @@
+FROM picoded/ubuntu-openjdk-8-jdk:14.04
+MAINTAINER Naveen
+
+RUN apt-get -y update
+RUN apt-get install -y netcat
+
+ADD target/graphql-sample-0.0.1-SNAPSHOT.jar app.jar
+
+CMD ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
