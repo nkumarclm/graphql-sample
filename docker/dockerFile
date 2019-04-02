@@ -1,5 +1,4 @@
 FROM picoded/ubuntu-openjdk-8-jdk:14.04
-MAINTAINER Naveen
 
 RUN apt-get -y update
 RUN apt-get install -y netcat
