@@ -28,4 +28,6 @@ http://localhost:8080/graphiql
 
     
     
+*Docker Image:*
     
+    docker run --rm -p 8080:8080 -e ADV_HOST=127.0.0.1 naveenpop/graph-test:latest
